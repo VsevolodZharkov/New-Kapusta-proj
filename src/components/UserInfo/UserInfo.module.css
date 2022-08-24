@@ -1,0 +1,77 @@
+.wrapper {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+	.btn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: none;
+		background-color: transparent;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 14px;
+		/* identical to box height */
+	
+		letter-spacing: 0.04em;
+		text-decoration-line: underline;
+	
+		color: #52555f;
+	}
+	.btn::before {
+		content: '';
+		display: inline-block;
+		margin: 0 20px;
+		width: 2px;
+		height: 36px;
+		background-color: #e0e5eb;
+	}
+}
+
+.text {
+  margin-left: 13px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  text-align: right;
+  letter-spacing: 0.04em;
+  color: #52555f;
+}
+@media screen and (max-width: 767px) {
+	.svg_iconLogoutDiv {
+		display: block;
+		padding: 5px 5px;
+		margin-left: 5px;
+		cursor: pointer;
+	}
+	.btn {
+		font-size: 0px;
+		background-color: transparent;
+		border: none;
+		outline: none;
+	}
+	.text {
+		display: none;
+	}
+	.svg_iconLogout {
+		fill:#CBCCD0;
+	}
+	.svg_iconLogout:hover,
+	.svg_iconLogout:focus {
+		fill: #ff751d;
+	}
+}
+@media screen and (min-width: 768px) {
+	.svg_iconLogoutDiv {
+		display: none;
+	}
+}
+

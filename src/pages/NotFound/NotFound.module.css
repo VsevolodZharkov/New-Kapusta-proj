@@ -1,0 +1,56 @@
+
+
+.bg_image {
+  position: relative;
+  top: 7%;
+  left: 13%;
+  z-index: 10;
+  border-radius: 70px;
+  height: 65%;
+  width: 65%;
+  background-size: 100%;
+
+  box-shadow: inset 2px 2px 5px rgba(212, 217, 209, 0.5),
+    1px 1px 5px rgba(255, 255, 255, 1);
+  background-image: url('../../images/background/kapusta_not.jpg');
+}
+
+.title {
+  color: rgb(212, 226, 249);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  right: 40%;
+}
+.btn {
+    
+  transform: translateY(0);
+  margin-top: 6px;
+  /* width: 270px; */
+  border-radius: 15px;
+  transition-duration: 300ms;
+  height: 44px;
+  width: 136px;
+  border: 2px solid #f6f7fc;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  
+
+  border: 2px solid #d3e1d4;
+  
+  color: #d3e1d4;
+  background-color: rgb(40, 117, 38)
+}
+.btn:hover {
+    color: black;
+    background-color: rgb(114, 179, 111);
+border: 2px solid black;
+    transform: translateY(-1px);
+    box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+    
+  
+}
